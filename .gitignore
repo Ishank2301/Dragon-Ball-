@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Env
+.env
+
+# Large binary assets — source these yourself, don't commit them
+assets/*.mp4
+assets/*.mov
+assets/*.avi
+models/*.task
+models/*.tflite
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
