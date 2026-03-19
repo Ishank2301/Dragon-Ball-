@@ -1,11 +1,3 @@
-"""
-Downloads pose_landmarker_heavy.task from Google's MediaPipe storage
-and saves it to the models/ directory.
-
-Usage:
-    python scripts/download_model.py
-"""
-
 import os
 import urllib.request
 
